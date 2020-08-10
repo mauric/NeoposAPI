@@ -4,7 +4,7 @@ let indexController = {
     index: async ( req , res , next  ) => {
         let user = await db.User.findAll() 
        // res.render( 'index' ,{ user : req.session.user , shops: shops });
-        res.JSON(user);
+        res.send(user);
     },
 }
 module.exports = indexController;
