@@ -13,3 +13,7 @@ en vez de renderizar hacer res.Json( cosa )
 a parte crear la tabla de la base de datos con las visitas y la acutalizaciondesde la aplicacion
 
 
+Paquetes instalados :
+
+express 
+mysql

@@ -1,0 +1,26 @@
+{
+    "name": "NeoposAPI",
+    "version": "1.0.0",
+    "description": "API REST para neopos",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mauric/NeoposAPI.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/mauric/NeoposAPI/issues"
+    },
+    "homepage": "https://github.com/mauric/NeoposAPI#readme",
+    "dependencies": {
+        "mysql": "^2.18.1"
+    },
+    "devDependencies": {
+        "express": "^4.17.1"
+    }
+}
